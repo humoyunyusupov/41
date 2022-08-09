@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>41-uy-ishi</title>
     <!-- <link rel="stylesheet" href="./css/normalize.css"> -->
-    <link rel="stylesheet" href="./css/main.css" />
-    <!-- <link rel="stylesheet" href="./css/main.min.css" /> -->
+    <!-- <link rel="stylesheet" href="./css/main.css" /> -->
+    <link rel="stylesheet" href="./css/main.min.css" />
 </head>
 <body>
     <!-- Site header start -->
@@ -51,7 +51,7 @@
                                     <a href="services.html" class="sitenav__item">Наши Услуги</a>
                                     <a href="#" class="sitenav__item">Полезные Статьи</a>
                                     <a href="faq.html" class="sitenav__item">FAQ</a>
-                                    <a href="#" class="sitenav__item">Контакты</a>
+                                    <a href="contact.html" class="sitenav__item">Контакты</a>
                                 </nav>
                                 <button class="header-bottom__button">Задать вопрос</button>
                             </div>
@@ -144,8 +144,7 @@
                                     >
                                 </li>
                                 <li class="hero-services__item hero-item-box">
-                                    <h2 class="hero-item-box__title">УЗИ
-                                        диагностика</h2>
+                                    <h2 class="hero-item-box__title">УЗИ диагностика</h2>
                                     <p class="hero-item-box__text">
                                         По условиям акции в нашей клинике предоставляетса безплатная
                                         услуга
@@ -165,8 +164,7 @@
                                     >
                                 </li>
                                 <li class="hero-services__item hero-item-box">
-                                    <h2 class="hero-item-box__title">Международ-
-                                        ные паспорта</h2>
+                                    <h2 class="hero-item-box__title">Международ- ные паспорта</h2>
                                     <p class="hero-item-box__text">
                                         По условиям акции в нашей клинике предоставляетса безплатная
                                         услуга
@@ -232,7 +230,7 @@
                                         <a href="#" class="site-footer__link">О Клинике </a>
                                     </li>
                                     <li class="site-footer__item">
-                                        <a href="#" class="site-footer__link">Наши Услуги </a>
+                                        <a href="services.html" class="site-footer__link">Наши Услуги </a>
                                     </li>
                                 </ul>
                                 
@@ -241,10 +239,10 @@
                                         <a href="#" class="site-footer__link">Полезные Статьи </a>
                                     </li>
                                     <li class="site-footer__item2">
-                                        <a href="#" class="site-footer__link">FAQ</a>
+                                        <a href="faq.html" class="site-footer__link">FAQ</a>
                                     </li>
                                     <li class="site-footer__item2">
-                                        <a href="#" class="site-footer__link">Контакты </a>
+                                        <a href="contact.html" class="site-footer__link">Контакты </a>
                                     </li>
                                 </ul>
                             </div>
@@ -292,6 +290,52 @@
         </footer>
         
         <!-- Site footer finish -->
-    </body>
-    </html>
-    
+        <div class="modal">
+            <div class="modal-window">
+                <div class="modal-window-sign-box">
+                    <h3 class="modal-window-sign-text">Авторизация:</h3>
+                    <a
+                    class="modal-window-sign-link"
+                    href="https://www.google.ru/"
+                    target="_blank"
+                    >Войти через Google</a
+                    >
+                    <a
+                    class="modal-window-sign-link"
+                    href="https://https://www.facebook.com//"
+                    target="_blank"
+                    >Войти через Facebook</a
+                    >
+                </div>
+                <form
+                class="modal-form"
+                action="https://echo.htmlacademy.ru/courses"
+                method="post"
+                autocomplete="off"
+                >
+                <h2 class="form-title">Задать вопрос</h2>
+                <input
+                class="form-input"
+                type="text"
+                name="user_name"
+                placeholder="Ваше имя"
+                aria-label="Enter your name"
+                />
+                <textarea
+                class="form-text-area"
+                type+="text"
+                name="user_text"
+                minlength="1"
+                maxlength="100"
+                placeholder="Опишите Ваш вопрос."
+                >
+                .</textarea
+                >
+                <button class="modal-button" type="submit">Отправить</button>
+                <a class="modal-close"></a>
+            </form>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
